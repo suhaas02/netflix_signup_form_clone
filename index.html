@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <div id="survey">
+        <h1 id="title">Net<span>flix</span></h1>
+        <h2 id="description">Thanks for signing up at Netflix.
+            This is so costly subscription. 😑😐
+            Use it wisely.
+        </h2>
+        <form id="survey-form">
+            <div class="form-inner">
+                <div class="marg">
+                    <label for="name" id="name-label">Name</label><br/>
+                    <input type="text" placeholder="Enter your name" id="name" required><br/>
+
+                </div>
+                <div class="marg">
+                    <label id="email-label">Email</label><br/>
+                    <input type="email" placeholder="Enter your Email" id="email" required ><br/>
+                </div>
+                <div class="marg">
+                    <label id="number-label">Age</label><br/>
+                    <input type="number" min="18" max="65" placeholder="Age" id="number" required ><br/>
+                 </div>
+                 <div class="marg">
+                    <label id="dropdown-label">Content type</label><br/>
+                    <select id="dropdown">
+                  <option value="volvo">Movie</option>
+                  <option value="saab">Series</option>
+                  
+                    </select><br/>
+                    </div>
+                    <div class="marg">
+                        <form-group>
+                            <label id="select-label">Movie type</label><br/>
+                        <label>
+                          </div>
+                          <div class="marg-se">  
+                        <input type="checkbox" id="first-check" name="vehicle1" value="Bike">Comedy<br/>
+                          </label>
+                          <label>
+                            <input type="checkbox" id="second-check"name="vehicle2" value="Car"> Action<br/>
+                          </label>
+                          <label>
+                            <input type="checkbox" id="thi-check" name="vehicle3" value="Boat" checked>Romance<br/>
+                                  </label>
+                    </div>
+                </form-group>
+                <div class="marg">
+                    <label id="feed-label">Feed back</label><br/>
+                    </div>
+                 </div>
+                 <div class="marg-se">
+                    <textarea  class="text-area" placeholder="any comment"> 
+                    </textarea><br/>
+                    </div>
+                    <input type="submit" id="submit">
+  </form>
+            </div>
+    </div>
+</html>
